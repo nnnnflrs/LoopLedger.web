@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 800" width="360" height="800">
+  <defs>
+    <linearGradient id="progressGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff8c42"/>
+      <stop offset="100%" stop-color="#a55eea"/>
+    </linearGradient>
+    <linearGradient id="arcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8c42"/>
+      <stop offset="100%" stop-color="#a55eea"/>
+    </linearGradient>
+    <clipPath id="roundClip">
+      <rect width="360" height="800" rx="0"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="360" height="800" fill="#f5f2ed" clip-path="url(#roundClip)"/>
+
+  <g transform="translate(0, 22)">
+  <!-- Header -->
+  <text x="20" y="38" font-family="Outfit, sans-serif" font-size="22" fill="#1a1816" font-weight="300">&#x2039;</text>
+  <text x="180" y="38" font-family="Outfit, sans-serif" font-size="18" fill="#1a1816" font-weight="700" text-anchor="middle">Analytics</text>
+
+  <!-- ============ TRIP TOTAL CARD ============ -->
+  <rect x="16" y="58" width="328" height="168" rx="16" fill="#ffffff" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
+
+  <text x="180" y="84" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a29e" text-anchor="middle" letter-spacing="2">TRIP TOTAL</text>
+  <text x="180" y="126" font-family="JetBrains Mono, monospace" font-size="42" fill="#ff8c42" font-weight="800" text-anchor="middle">&#x20B1;38,450</text>
+
+  <!-- Dashed divider -->
+  <line x1="32" y1="144" x2="328" y2="144" stroke="rgba(0,0,0,0.08)" stroke-width="1" stroke-dasharray="8 6"/>
+
+  <!-- Stats row -->
+  <text x="96" y="170" font-family="JetBrains Mono, monospace" font-size="18" fill="#1a1816" font-weight="700" text-anchor="middle">18</text>
+  <text x="96" y="184" font-family="JetBrains Mono, monospace" font-size="7" fill="#a8a29e" text-anchor="middle" letter-spacing="1">TRIP DAYS</text>
+
+  <text x="172" y="170" font-family="JetBrains Mono, monospace" font-size="18" fill="#1a1816" font-weight="700" text-anchor="middle">14</text>
+  <text x="172" y="184" font-family="JetBrains Mono, monospace" font-size="7" fill="#a8a29e" text-anchor="middle" letter-spacing="1">RIDING DAYS</text>
+
+  <text x="248" y="170" font-family="JetBrains Mono, monospace" font-size="14" fill="#1a1816" font-weight="700" text-anchor="middle">&#x20B1;2,136</text>
+  <text x="248" y="184" font-family="JetBrains Mono, monospace" font-size="7" fill="#a8a29e" text-anchor="middle" letter-spacing="1">AVG/DAY</text>
+
+  <text x="328" y="170" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1816" font-weight="700" text-anchor="middle">2,847 km</text>
+  <text x="328" y="184" font-family="JetBrains Mono, monospace" font-size="7" fill="#a8a29e" text-anchor="middle" letter-spacing="1">DISTANCE</text>
+
+  <!-- ============ BUDGET TRACKER CARD ============ -->
+  <rect x="16" y="238" width="328" height="230" rx="16" fill="#ffffff" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
+
+  <text x="180" y="264" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a29e" text-anchor="middle" letter-spacing="2">BUDGET TRACKER</text>
+
+  <!-- Donut chart -->
+  <!-- Background ring -->
+  <circle cx="180" cy="340" r="52" fill="none" stroke="#f0ece6" stroke-width="10"/>
+  <!-- Progress ring: 77% of circumference. C = 2*pi*52 = 326.73. 77% = 251.58 -->
+  <circle cx="180" cy="340" r="52" fill="none" stroke="url(#arcGrad)" stroke-width="10" stroke-linecap="round"
+    stroke-dasharray="251.58 326.73"
+    transform="rotate(-90 180 340)"/>
+  <!-- Center text -->
+  <text x="180" y="347" font-family="JetBrains Mono, monospace" font-size="24" fill="#1a1816" font-weight="800" text-anchor="middle">77%</text>
+  <text x="180" y="362" font-family="JetBrains Mono, monospace" font-size="8" fill="#a8a29e" text-anchor="middle" letter-spacing="2">USED</text>
+
+  <!-- Budget stats row -->
+  <text x="72" y="418" font-family="JetBrains Mono, monospace" font-size="14" fill="#1a1816" font-weight="700" text-anchor="middle">&#x20B1;38,450</text>
+  <text x="72" y="432" font-family="JetBrains Mono, monospace" font-size="7" fill="#a8a29e" text-anchor="middle" letter-spacing="1">SPENT</text>
+
+  <text x="180" y="418" font-family="JetBrains Mono, monospace" font-size="14" fill="#00d4aa" font-weight="700" text-anchor="middle">&#x20B1;11,550</text>
+  <text x="180" y="432" font-family="JetBrains Mono, monospace" font-size="7" fill="#a8a29e" text-anchor="middle" letter-spacing="1">LEFT</text>
+
+  <text x="288" y="418" font-family="JetBrains Mono, monospace" font-size="14" fill="#1a1816" font-weight="700" text-anchor="middle">&#x20B1;50,000</text>
+  <text x="288" y="432" font-family="JetBrains Mono, monospace" font-size="7" fill="#a8a29e" text-anchor="middle" letter-spacing="1">BUDGET</text>
+
+  <!-- Dashed divider -->
+  <line x1="32" y1="448" x2="328" y2="448" stroke="rgba(0,0,0,0.08)" stroke-width="1" stroke-dasharray="8 6"/>
+
+  <!-- ============ STATUS CARD ============ -->
+  <rect x="16" y="478" width="328" height="120" rx="16" fill="#ffffff" stroke="rgba(0,0,0,0.08)" stroke-width="1"/>
+
+  <!-- Teal dot + On Track -->
+  <circle cx="34" cy="502" r="4" fill="#00d4aa"/>
+  <text x="46" y="506" font-family="Outfit, sans-serif" font-size="14" fill="#1a1816" font-weight="700">On Track</text>
+  <text x="34" y="522" font-family="Outfit, sans-serif" font-size="11" fill="#6b6560">&#x20B1;11,550 remaining — staying within budget</text>
+
+  <!-- Dashed divider -->
+  <line x1="32" y1="536" x2="328" y2="536" stroke="rgba(0,0,0,0.08)" stroke-width="1" stroke-dasharray="8 6"/>
+
+  <!-- Status stats -->
+  <text x="88" y="562" font-family="JetBrains Mono, monospace" font-size="13" fill="#1a1816" font-weight="700" text-anchor="middle">&#x20B1;2,778</text>
+  <text x="88" y="576" font-family="JetBrains Mono, monospace" font-size="7" fill="#a8a29e" text-anchor="middle" letter-spacing="0.5">DAILY BUDGET</text>
+
+  <text x="196" y="562" font-family="JetBrains Mono, monospace" font-size="13" fill="#1a1816" font-weight="700" text-anchor="middle">&#x20B1;2,136</text>
+  <text x="196" y="576" font-family="JetBrains Mono, monospace" font-size="7" fill="#a8a29e" text-anchor="middle" letter-spacing="0.5">AVG DAILY SPEND</text>
+
+  <text x="304" y="562" font-family="JetBrains Mono, monospace" font-size="13" fill="#00d4aa" font-weight="700" text-anchor="middle">&#x20B1;642</text>
+  <text x="304" y="576" font-family="JetBrains Mono, monospace" font-size="7" fill="#a8a29e" text-anchor="middle" letter-spacing="0.5">LEFT/DAY</text>
+
+  <!-- ============ SPENDING BY CATEGORY ============ -->
+  <text x="180" y="624" font-family="JetBrains Mono, monospace" font-size="10" fill="#a8a29e" text-anchor="middle" letter-spacing="2">SPENDING BY CATEGORY</text>
+
+  <!-- Category 1: Gas -->
+  <text x="20" y="650" font-family="Outfit, sans-serif" font-size="13" fill="#ff8c42" font-weight="600">Gas</text>
+  <text x="280" y="650" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1816" text-anchor="end">&#x20B1;12,400</text>
+  <text x="340" y="650" font-family="JetBrains Mono, monospace" font-size="11" fill="#a8a29e" text-anchor="end">32%</text>
+  <rect x="20" y="656" width="320" height="4" rx="2" fill="#f0ece6"/>
+  <rect x="20" y="656" width="102" height="4" rx="2" fill="#ff8c42"/>
+
+  <!-- Category 2: Hotel -->
+  <text x="20" y="678" font-family="Outfit, sans-serif" font-size="13" fill="#a55eea" font-weight="600">Hotel</text>
+  <text x="280" y="678" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1816" text-anchor="end">&#x20B1;10,800</text>
+  <text x="340" y="678" font-family="JetBrains Mono, monospace" font-size="11" fill="#a8a29e" text-anchor="end">28%</text>
+  <rect x="20" y="684" width="320" height="4" rx="2" fill="#f0ece6"/>
+  <rect x="20" y="684" width="90" height="4" rx="2" fill="#a55eea"/>
+
+  <!-- Category 3: Food -->
+  <text x="20" y="706" font-family="Outfit, sans-serif" font-size="13" fill="#00d4aa" font-weight="600">Food</text>
+  <text x="280" y="706" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1816" text-anchor="end">&#x20B1;8,200</text>
+  <text x="340" y="706" font-family="JetBrains Mono, monospace" font-size="11" fill="#a8a29e" text-anchor="end">21%</text>
+  <rect x="20" y="712" width="320" height="4" rx="2" fill="#f0ece6"/>
+  <rect x="20" y="712" width="67" height="4" rx="2" fill="#00d4aa"/>
+
+  <!-- Category 4: Ferry -->
+  <text x="20" y="734" font-family="Outfit, sans-serif" font-size="13" fill="#4facfe" font-weight="600">Ferry</text>
+  <text x="280" y="734" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1816" text-anchor="end">&#x20B1;4,500</text>
+  <text x="340" y="734" font-family="JetBrains Mono, monospace" font-size="11" fill="#a8a29e" text-anchor="end">12%</text>
+  <rect x="20" y="740" width="320" height="4" rx="2" fill="#f0ece6"/>
+  <rect x="20" y="740" width="38" height="4" rx="2" fill="#4facfe"/>
+
+  <!-- Category 5: Repair -->
+  <text x="20" y="756" font-family="Outfit, sans-serif" font-size="13" fill="#ff6348" font-weight="600">Repair</text>
+  <text x="280" y="756" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1816" text-anchor="end">&#x20B1;1,550</text>
+  <text x="340" y="756" font-family="JetBrains Mono, monospace" font-size="11" fill="#a8a29e" text-anchor="end">4%</text>
+  <rect x="20" y="762" width="320" height="4" rx="2" fill="#f0ece6"/>
+  <rect x="20" y="762" width="13" height="4" rx="2" fill="#ff6348"/>
+
+  <!-- Category 6: Misc -->
+  <text x="20" y="778" font-family="Outfit, sans-serif" font-size="13" fill="#636e72" font-weight="600">Misc</text>
+  <text x="280" y="778" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1816" text-anchor="end">&#x20B1;1,000</text>
+  <text x="340" y="778" font-family="JetBrains Mono, monospace" font-size="11" fill="#a8a29e" text-anchor="end">3%</text>
+  </g>
+</svg>

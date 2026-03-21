@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 800" width="360" height="800">
+  <defs>
+    <filter id="cardShadow" x="-4%" y="-2%" width="108%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <filter id="btnShadow" x="-4%" y="-8%" width="108%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#ff8c42" flood-opacity="0.25"/>
+    </filter>
+    <filter id="blueBtnShadow" x="-4%" y="-8%" width="108%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#4facfe" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="360" height="800" fill="#0d0d0f" rx="0"/>
+
+  <g transform="translate(0, 22)">
+  <!-- Header -->
+  <text x="180" y="32" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="18" font-weight="700" fill="#e8e4df">LoopLedger</text>
+
+  <!-- Rider info -->
+  <text x="20" y="62" font-family="'JetBrains Mono', monospace" font-size="10" fill="#5a5652" letter-spacing="1.5">RIDER</text>
+  <text x="20" y="88" font-family="'Outfit', sans-serif" font-size="22" font-weight="700" fill="#e8e4df">Juan Dela Cruz</text>
+
+  <!-- ON TRIP badge -->
+  <rect x="262" y="60" width="78" height="26" rx="13" fill="none" stroke="#00d4aa" stroke-opacity="0.3" stroke-width="1"/>
+  <rect x="262" y="60" width="78" height="26" rx="13" fill="#00d4aa" fill-opacity="0.08"/>
+  <circle cx="276" cy="73" r="4" fill="#00d4aa"/>
+  <text x="286" y="77" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#00d4aa">ON TRIP</text>
+
+  <!-- Active Trip Card -->
+  <rect x="16" y="110" width="328" height="248" rx="16" fill="#161618" stroke="rgba(255,255,255,0.06)" stroke-width="1" filter="url(#cardShadow)"/>
+
+  <!-- Card header -->
+  <text x="32" y="138" font-family="'JetBrains Mono', monospace" font-size="10" fill="#5a5652" letter-spacing="1.5">ACTIVE TRIP</text>
+  <text x="320" y="138" text-anchor="end" font-family="'Outfit', sans-serif" font-size="12" font-weight="500" fill="#9a9590">VIEW ›</text>
+
+  <!-- Trip name -->
+  <text x="32" y="164" font-family="'Outfit', sans-serif" font-size="18" font-weight="700" fill="#e8e4df">Philippine Loop 2026</text>
+
+  <!-- Big amount -->
+  <text x="32" y="214" font-family="'JetBrains Mono', monospace" font-size="36" font-weight="800" fill="#ff8c42">₱38,450</text>
+  <text x="32" y="232" font-family="'JetBrains Mono', monospace" font-size="10" fill="#5a5652" letter-spacing="1.5">TOTAL SPENT</text>
+
+  <!-- Dashed divider -->
+  <line x1="32" y1="248" x2="328" y2="248" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="8 6"/>
+
+  <!-- Stats row -->
+  <!-- Duration -->
+  <text x="73" y="280" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700" fill="#e8e4df">18</text>
+  <text x="73" y="296" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#5a5652" letter-spacing="0.8">TRIP DAYS</text>
+
+  <!-- Riding days -->
+  <text x="147" y="280" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700" fill="#e8e4df">14</text>
+  <text x="147" y="296" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#5a5652" letter-spacing="0.8">RIDING DAYS</text>
+
+  <!-- Distance -->
+  <text x="233" y="280" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700" fill="#e8e4df">2,847 km</text>
+  <text x="233" y="296" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#5a5652" letter-spacing="0.8">TOTAL DISTANCE</text>
+
+  <!-- Avg/day -->
+  <text x="316" y="280" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="700" fill="#e8e4df">₱2,136</text>
+  <text x="316" y="296" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8" fill="#5a5652" letter-spacing="0.8">AVG/DAY</text>
+
+  <!-- Vertical separators in stats -->
+  <line x1="110" y1="268" x2="110" y2="300" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="184" y1="268" x2="184" y2="300" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="270" y1="268" x2="270" y2="300" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Active Day Card -->
+  <rect x="16" y="374" width="328" height="320" rx="16" fill="#161618" stroke="rgba(255,255,255,0.06)" stroke-width="1" filter="url(#cardShadow)"/>
+
+  <!-- Day header -->
+  <circle cx="32" cy="400" r="5" fill="#00d4aa"/>
+  <text x="44" y="404" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#00d4aa" letter-spacing="1">DAY 14 — RIDING</text>
+  <text x="320" y="404" text-anchor="end" font-family="'Outfit', sans-serif" font-size="12" font-weight="500" fill="#9a9590">VIEW ›</text>
+
+  <!-- Day stats row -->
+  <text x="32" y="436" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700" fill="#e8e4df">8,245</text>
+  <text x="32" y="450" font-family="'JetBrains Mono', monospace" font-size="9" fill="#5a5652" letter-spacing="0.8">START ODO</text>
+
+  <text x="140" y="436" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#e8e4df">Legazpi City, Albay</text>
+  <text x="140" y="450" font-family="'JetBrains Mono', monospace" font-size="9" fill="#5a5652" letter-spacing="0.8">FROM</text>
+
+  <text x="320" y="436" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="700" fill="#e8e4df">6:30 AM</text>
+  <text x="320" y="450" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9" fill="#5a5652" letter-spacing="0.8">STARTED</text>
+
+  <!-- Dashed divider -->
+  <line x1="32" y1="466" x2="328" y2="466" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="8 6"/>
+
+  <!-- Checkpoint 1 -->
+  <circle cx="38" cy="494" r="5" fill="#ff8c42"/>
+  <line x1="38" y1="500" x2="38" y2="530" stroke="#ff8c42" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="52" y="490" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#e8e4df">Naga City</text>
+  <text x="52" y="508" font-family="'Outfit', sans-serif" font-size="12" fill="#9a9590">Fuel stop and breakfast</text>
+  <text x="320" y="494" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" fill="#9a9590">7:45 AM</text>
+
+  <!-- Checkpoint 2 -->
+  <circle cx="38" cy="540" r="5" fill="#ff8c42"/>
+  <text x="52" y="536" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#e8e4df">Daet, Camarines Norte</text>
+  <text x="52" y="554" font-family="'Outfit', sans-serif" font-size="12" fill="#9a9590">Quick rest at beach viewpoint</text>
+  <text x="320" y="540" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="11" fill="#9a9590">10:20 AM</text>
+
+  <!-- Add stop button (dashed) -->
+  <rect x="32" y="576" width="296" height="40" rx="10" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="8 6"/>
+  <text x="180" y="601" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="13" font-weight="500" fill="#5a5652">+ ADD STOP / SIDETRIP</text>
+
+  <!-- Finish Day button -->
+  <rect x="32" y="628" width="296" height="50" rx="14" fill="#ff8c42" filter="url(#btnShadow)"/>
+  <text x="180" y="659" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="15" font-weight="700" fill="#0d0d0f">FINISH DAY 14</text>
+
+  <!-- Quick Add Expense button -->
+  <rect x="16" y="710" width="328" height="54" rx="14" fill="#4facfe" filter="url(#blueBtnShadow)"/>
+  <circle cx="48" cy="737" r="14" fill="rgba(255,255,255,0.2)"/>
+  <text x="48" y="743" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#fff">+</text>
+  <text x="190" y="743" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="16" font-weight="700" fill="#fff">Quick Add Expense</text>
+  </g>
+</svg>

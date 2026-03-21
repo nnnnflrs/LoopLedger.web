@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 852" width="360" height="852">
+  <defs>
+    <filter id="cardShadow" x="-4%" y="-2%" width="108%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="360" height="852" fill="#0d0d0f"/>
+
+  <g transform="translate(0, 22)">
+  <!-- Header -->
+  <text x="20" y="32" font-family="'Outfit', sans-serif" font-size="22" font-weight="500" fill="#9a9590">‹</text>
+  <text x="180" y="32" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="18" font-weight="700" fill="#e8e4df">Trip Details</text>
+  <text x="340" y="34" text-anchor="end" font-family="'Outfit', sans-serif" font-size="20" fill="#9a9590">•••</text>
+
+  <!-- Active badge -->
+  <rect x="20" y="52" width="76" height="24" rx="12" fill="#00d4aa" fill-opacity="0.08" stroke="#00d4aa" stroke-opacity="0.3" stroke-width="1"/>
+  <circle cx="36" cy="64" r="4" fill="#00d4aa"/>
+  <text x="46" y="68" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#00d4aa">ACTIVE</text>
+
+  <!-- Trip name -->
+  <text x="20" y="104" font-family="'Outfit', sans-serif" font-size="24" font-weight="700" fill="#e8e4df">Philippine Loop 2026</text>
+  <text x="20" y="124" font-family="'Outfit', sans-serif" font-size="13" fill="#9a9590">2026-03-15 — Ongoing</text>
+
+  <!-- Stats grid Row 1 -->
+  <rect x="16" y="144" width="158" height="80" rx="16" fill="#161618" stroke="rgba(255,255,255,0.06)" stroke-width="1" filter="url(#cardShadow)"/>
+  <text x="32" y="180" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="800" fill="#ff8c42">₱38,450</text>
+  <text x="32" y="200" font-family="'JetBrains Mono', monospace" font-size="9" fill="#5a5652" letter-spacing="1">TOTAL SPENT</text>
+
+  <rect x="186" y="144" width="158" height="80" rx="16" fill="#161618" stroke="rgba(255,255,255,0.06)" stroke-width="1" filter="url(#cardShadow)"/>
+  <text x="202" y="180" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="700" fill="#e8e4df">18</text>
+  <text x="202" y="200" font-family="'JetBrains Mono', monospace" font-size="9" fill="#5a5652" letter-spacing="1">TRIP DURATION</text>
+
+  <!-- Stats grid Row 2 -->
+  <rect x="16" y="234" width="158" height="80" rx="16" fill="#161618" stroke="rgba(255,255,255,0.06)" stroke-width="1" filter="url(#cardShadow)"/>
+  <text x="32" y="270" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="700" fill="#e8e4df">14</text>
+  <text x="32" y="290" font-family="'JetBrains Mono', monospace" font-size="9" fill="#5a5652" letter-spacing="1">RIDING DAYS</text>
+
+  <rect x="186" y="234" width="158" height="80" rx="16" fill="#161618" stroke="rgba(255,255,255,0.06)" stroke-width="1" filter="url(#cardShadow)"/>
+  <text x="202" y="270" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="700" fill="#e8e4df">2,847 km</text>
+  <text x="202" y="290" font-family="'JetBrains Mono', monospace" font-size="9" fill="#5a5652" letter-spacing="1">TOTAL DISTANCE</text>
+
+  <!-- Stats grid Row 3 (full width) -->
+  <rect x="16" y="324" width="328" height="72" rx="16" fill="#161618" stroke="rgba(255,255,255,0.06)" stroke-width="1" filter="url(#cardShadow)"/>
+  <text x="32" y="362" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="800" fill="#ff8c42">₱2,136</text>
+  <text x="32" y="380" font-family="'JetBrains Mono', monospace" font-size="9" fill="#5a5652" letter-spacing="1">AVG / DAY</text>
+
+  <!-- Navigation list -->
+  <!-- Analytics -->
+  <rect x="16" y="416" width="328" height="48" rx="0" fill="transparent"/>
+  <g transform="translate(28, 430)">
+    <polyline points="0,14 5,8 10,10 15,4 20,6 25,0" fill="none" stroke="#4facfe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="62" y="446" font-family="'Outfit', sans-serif" font-size="15" font-weight="600" fill="#e8e4df">Analytics</text>
+  <text x="330" y="446" text-anchor="end" font-family="'Outfit', sans-serif" font-size="16" fill="#5a5652">›</text>
+  <line x1="62" y1="462" x2="340" y2="462" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="8 6"/>
+
+  <!-- Map View -->
+  <rect x="16" y="464" width="328" height="48" rx="0" fill="transparent"/>
+  <g transform="translate(32, 478)">
+    <circle cx="6" cy="4" r="3" fill="none" stroke="#00d4aa" stroke-width="1.5"/>
+    <path d="M6,7 L6,16" stroke="#00d4aa" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M2,16 L10,16" stroke="#00d4aa" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <text x="62" y="494" font-family="'Outfit', sans-serif" font-size="15" font-weight="600" fill="#e8e4df">Map View</text>
+  <text x="330" y="494" text-anchor="end" font-family="'Outfit', sans-serif" font-size="16" fill="#5a5652">›</text>
+  <line x1="62" y1="510" x2="340" y2="510" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="8 6"/>
+
+  <!-- Journal -->
+  <rect x="16" y="512" width="328" height="48" rx="0" fill="transparent"/>
+  <g transform="translate(30, 524)">
+    <rect x="0" y="0" width="14" height="18" rx="2" fill="none" stroke="#a55eea" stroke-width="1.5"/>
+    <line x1="4" y1="5" x2="10" y2="5" stroke="#a55eea" stroke-width="1" stroke-linecap="round"/>
+    <line x1="4" y1="9" x2="10" y2="9" stroke="#a55eea" stroke-width="1" stroke-linecap="round"/>
+    <line x1="4" y1="13" x2="8" y2="13" stroke="#a55eea" stroke-width="1" stroke-linecap="round"/>
+  </g>
+  <text x="62" y="542" font-family="'Outfit', sans-serif" font-size="15" font-weight="600" fill="#e8e4df">Journal</text>
+  <text x="330" y="542" text-anchor="end" font-family="'Outfit', sans-serif" font-size="16" fill="#5a5652">›</text>
+  <line x1="62" y1="558" x2="340" y2="558" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="8 6"/>
+
+  <!-- Ride Summary -->
+  <rect x="16" y="560" width="328" height="48" rx="0" fill="transparent"/>
+  <g transform="translate(28, 572)">
+    <ellipse cx="8" cy="10" rx="8" ry="5" fill="none" stroke="#ff8c42" stroke-width="1.5"/>
+    <circle cx="3" cy="12" r="4" fill="none" stroke="#ff8c42" stroke-width="1.5"/>
+    <circle cx="13" cy="12" r="4" fill="none" stroke="#ff8c42" stroke-width="1.5"/>
+  </g>
+  <text x="62" y="590" font-family="'Outfit', sans-serif" font-size="15" font-weight="600" fill="#e8e4df">Ride Summary</text>
+  <text x="330" y="590" text-anchor="end" font-family="'Outfit', sans-serif" font-size="16" fill="#5a5652">›</text>
+  <line x1="20" y1="608" x2="340" y2="608" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Expenses section -->
+  <text x="20" y="636" font-family="'JetBrains Mono', monospace" font-size="10" fill="#5a5652" letter-spacing="1.5">EXPENSES</text>
+
+  <!-- Date header -->
+  <rect x="16" y="650" width="328" height="36" rx="8" fill="#1e1e22"/>
+  <text x="32" y="674" font-family="'Outfit', sans-serif" font-size="13" font-weight="600" fill="#e8e4df">▾  Sat, Mar 21</text>
+  <text x="290" y="674" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#ff8c42">₱4,850</text>
+  <rect x="304" y="662" width="24" height="20" rx="10" fill="rgba(255,255,255,0.06)"/>
+  <text x="316" y="676" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#9a9590">8</text>
+
+  <!-- Expense 1: Gas -->
+  <circle cx="36" cy="712" r="14" fill="none" stroke="#ff8c42" stroke-width="2"/>
+  <text x="36" y="717" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#ff8c42">⛽</text>
+  <text x="60" y="707" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#e8e4df">Gas</text>
+  <text x="60" y="722" font-family="'Outfit', sans-serif" font-size="11" fill="#9a9590">Shell — Legazpi City</text>
+  <text x="330" y="707" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" fill="#e8e4df">₱1,200</text>
+  <text x="330" y="722" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#5a5652">6:45 AM</text>
+  <line x1="60" y1="734" x2="340" y2="734" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Expense 2: Food -->
+  <circle cx="36" cy="754" r="14" fill="none" stroke="#00d4aa" stroke-width="2"/>
+  <text x="36" y="759" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#00d4aa">🍜</text>
+  <text x="60" y="749" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#e8e4df">Food</text>
+  <text x="60" y="764" font-family="'Outfit', sans-serif" font-size="11" fill="#9a9590">Breakfast at Bigg's Diner</text>
+  <text x="330" y="749" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" fill="#e8e4df">₱380</text>
+  <text x="330" y="764" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#5a5652">7:30 AM</text>
+  <line x1="60" y1="776" x2="340" y2="776" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- Expense 3: Hotel -->
+  <circle cx="36" cy="796" r="14" fill="none" stroke="#a55eea" stroke-width="2"/>
+  <text x="36" y="801" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#a55eea">🏨</text>
+  <text x="60" y="791" font-family="'Outfit', sans-serif" font-size="14" font-weight="600" fill="#e8e4df">Hotel</text>
+  <text x="60" y="806" font-family="'Outfit', sans-serif" font-size="11" fill="#9a9590">Check-out Casa Elisa</text>
+  <text x="330" y="791" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" fill="#e8e4df">₱2,500</text>
+  <text x="330" y="806" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#5a5652">6:00 AM</text>
+  </g>
+</svg>
